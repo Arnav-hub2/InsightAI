@@ -1,6 +1,7 @@
-const API_KEY = '183e509362e7493d9abdb8d83f3f280b';
+const API_KEY = '3b0627ba307b8417eb62b781669697c5';
 
-const URL = `https://newsapi.org/v2/top-headlines?country=us&pageSize=20&apiKey=${API_KEY}`;
+const URL =
+  `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=20&apikey=${API_KEY}`;
 
 export const fetchNews = async () => {
   try {
